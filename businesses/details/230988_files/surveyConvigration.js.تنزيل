@@ -1,0 +1,501 @@
+survey_configuration = {
+    // don't change any key name or object name
+    routesArr: [
+        // don't add trail slash to URL
+        // { route: '*', iframeUrl: 'https://az2.survey2connect.com/N/fa3316d9', showSurvey: true, }
+        // PRODUCTION URLs
+        {
+            route: 'https://saber.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/fa3316d9',
+            showSurvey: false,
+        },
+
+
+
+        {
+            route: 'https://ecr.mc.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/81ab250f',
+            showSurvey: false,
+        },
+        {
+            route: 'https://tm.saip.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/6618a44a',
+            showSurvey: false,
+        },
+        {
+            route: 'https://ipn.thiqah.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/d84103ad',
+            showSurvey: false,
+        },
+        {
+            route: 'https://ipn.saip.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/d84103ad',
+            showSurvey: false,
+        },
+        {
+            route: 'https://emtiyaz.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/95339400',
+            showSurvey: false,
+        },
+        {
+            route: 'https://se.mc.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/5a7bf67f',
+            showSurvey: false,
+        },
+        {
+            route: 'https://mcc.vsafety.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/1e35f23a',
+            showSurvey: false,
+        },
+        {
+            route: 'https://coo.mc.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/2ebb39dc',
+            showSurvey: false,
+        },
+        {
+            route: 'https://fasehpp.thiqah.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/1f535600',
+            showSurvey: false,
+        },
+
+        {
+            route: 'https://abdea.moc.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/adad9acf',
+            showSurvey: false,
+        },
+        {
+            route: 'https://aamaly.sa',
+            iframeUrl: 'https://az2.survey2connect.com/K/269651dc',
+            showSurvey: true,
+        },
+        // { route: 'https://mwathiq.sa', iframeUrl: 'https://az2.survey2connect.com/N/3e70e266?langKey=arab_gulf', showSurvey: true, },
+// ---> Start MOC
+
+
+
+
+        {
+            route: 'https://moc-public-pp.thiqah.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/adad9acf',
+            showSurvey: true,
+        },
+        {
+            route: 'https://abdea.moc.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/adad9acf',
+            showSurvey: true,
+        },
+        {
+            route: 'https://moc-webpublic.aks.thiqah.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/adad9acf',
+            showSurvey: true,
+        },
+
+        {
+            route: 'https://moc-public-pp.thiqah.sa/site/dashboard/individual?activeTab=requests-in-progress&page=1',
+            iframeUrl: 'https://az2.survey2connect.com/K/f54d3f5b',
+            showSurvey: true,
+        },
+        {
+            route: 'https://moc-public-pp.thiqah.sa/site/dashboard/company?activeTab=requests-in-progress&page=1',
+            iframeUrl: 'https://az2.survey2connect.com/K/f54d3f5b',
+            showSurvey: true,
+        },
+
+        {
+            route: 'https://abdea.moc.gov.sa/site/dashboard/individual?activeTab=requests-in-progress&page=1',
+            iframeUrl: 'https://az2.survey2connect.com/K/f54d3f5b',
+            showSurvey: true,
+        },
+        {
+            route: 'https://abdea.moc.gov.sa/site/dashboard/company?activeTab=requests-in-progress&page=1',
+            iframeUrl: 'https://az2.survey2connect.com/K/f54d3f5b',
+            showSurvey: true,
+        },
+
+        {
+            route: 'https://moc-public-pp.thiqah.sa/site/dashboard/individual?activeTab=produced-licenses&page=1',
+            iframeUrl: 'https://az2.survey2connect.com/K/e195c9a1',
+            showSurvey: true,
+        },
+        {
+            route: 'https://moc-public-pp.thiqah.sa/site/dashboard/company?activeTab=produced-licenses&page=1',
+            iframeUrl: 'https://az2.survey2connect.com/K/e195c9a1',
+            showSurvey: true,
+        },
+        {
+            route: 'https://abdea.moc.gov.sa/site/dashboard/individual?activeTab=produced-licenses&page=1',
+            iframeUrl: 'https://az2.survey2connect.com/K/e195c9a1',
+            showSurvey: true,
+        },
+        {
+            route: 'https://abdea.moc.gov.sa/site/dashboard/company?activeTab=produced-licenses&page=1',
+            iframeUrl: 'https://az2.survey2connect.com/K/e195c9a1',
+            showSurvey: true,
+        },
+
+
+        // <---> End MOC
+{
+            route: 'https://aamaly.sa',
+            iframeUrl: 'https://az2.survey2connect.com/K/269651dc',
+            showSurvey: true,
+        },
+
+
+        {
+            route: 'https://thiqahsurvey.azureedge.net',
+            iframeUrl: 'https://az2.survey2connect.com/N/b77eb59d',
+            showSurvey: true,
+        },
+        {
+            route: 'https://emazad.sa/app/main/wallet/mywallet',
+            iframeUrl: 'https://az2.survey2connect.com/N/9fb48b9c',
+            showSurvey: true,
+        },
+        {
+            route: 'https://emazad.sa/home/running',
+            iframeUrl: 'https://az2.survey2connect.com/N/b167c6ee',
+            showSurvey: true,
+        }, {
+            route: 'https://publick8s-staging.emazad.sa/home/running',
+            iframeUrl: 'https://az2.survey2connect.com/N/b167c6ee',
+            showSurvey: true,
+        },
+        // PRE & TEST  URLs
+
+        // { route: 'https://moc-public-test.thiqah.sa', iframeUrl: 'https://az2.survey2connect.com/N/adad9acf', showSurvey: true, },
+        // --> Start Aamaly
+        {
+            route: 'https://pp.aamaly.sa',
+            iframeUrl: 'https://az2.survey2connect.com/K/269651dc',
+            showSurvey: true,
+        },
+
+        //--> End AAmaly
+        // Fash Production
+        {
+            route: 'https://faseh.sfda.gov.sa/en/conformity-body/billing',
+            iframeUrl: 'https://az2.survey2connect.com/K/7d020d0b',
+            showSurvey: true,
+        },
+        {
+            route: 'https://faseh.sfda.gov.sa/en/conformity-body/billing-details/6af0d5cb-1974-d3d5-8049-3a0297e660b0/requestsTab',
+            iframeUrl: 'https://az2.survey2connect.com/K/7d020d0b',
+            showSurvey: true,
+        },
+        {
+            route: 'https://faseh.sfda.gov.sa/en/conformity-body/billing-details/unbilled/uploadedTab',
+            iframeUrl: 'https://az2.survey2connect.com/K/72bf9cbe',
+            showSurvey: true,
+        },
+        {
+            route: 'https://faseh.sfda.gov.sa/en/conformity-body/ecosma-request/details/27c4deff-2b3a-3b66-aece-3a0261481a4d',
+            iframeUrl: 'https://az2.survey2connect.com/K/1586fd26',
+            showSurvey: true,
+        },
+        {
+            route: 'https://faseh.sfda.gov.sa/9c02f27d-45c6-4316-96fd-183e7172f831',
+            iframeUrl: 'https://az2.survey2connect.com/N/0058fa41',
+            showSurvey: true,
+        },
+        {
+            route: 'https://faseh.sfda.gov.sa/ar/faseh-request/new-request/request-info/af3773cd-0820-ff4b-d793-3a02a45f716b',
+            iframeUrl: 'https://az2.survey2connect.com/N/7e2b0cfb',
+            showSurvey: true,
+        },
+
+
+
+        {
+            route: 'https://fasehpp.thiqah.sa/en/conformity-body/billing',
+            iframeUrl: 'https://az2.survey2connect.com/K/7d020d0b',
+            showSurvey: true,
+        },
+        {
+            route: 'https://fasehpp.thiqah.sa/en/conformity-body/billing-details/6af0d5cb-1974-d3d5-8049-3a0297e660b0/requestsTab',
+            iframeUrl: 'https://az2.survey2connect.com/K/7d020d0b',
+            showSurvey: true,
+        },
+        {
+            route: 'https://fasehpp.thiqah.sa/en/conformity-body/billing-details/unbilled/uploadedTab',
+            iframeUrl: 'https://az2.survey2connect.com/K/72bf9cbe',
+            showSurvey: true,
+        },
+        {
+            route: 'https://fasehpp.thiqah.sa/en/conformity-body/ecosma-request/details/27c4deff-2b3a-3b66-aece-3a0261481a4d',
+            iframeUrl: 'https://az2.survey2connect.com/K/1586fd26',
+            showSurvey: true,
+        },
+        {
+            route: 'https://fasehpp.thiqah.sa/9c02f27d-45c6-4316-96fd-183e7172f831',
+            iframeUrl: 'https://az2.survey2connect.com/N/0058fa41',
+            showSurvey: true,
+        },
+        {
+            route: 'https://fasehpp.thiqah.sa/ar/faseh-request/new-request/request-info/af3773cd-0820-ff4b-d793-3a02a45f716b',
+            iframeUrl: 'https://az2.survey2connect.com/N/7e2b0cfb',
+            showSurvey: true,
+        },
+
+
+
+        //End
+
+
+        // Esedr production
+
+        {
+            route: 'https://esdr.sfda.gov.sa/Certificates/AddCertificateRequest ',
+            iframeUrl: 'https://az2.survey2connect.com/N/3d90a058',
+            showSurvey: true,
+        },
+        {
+            route: 'https://esdr.sfda.gov.sa/Registration',
+            iframeUrl: 'https://az2.survey2connect.com/N/4f5b006d',
+            showSurvey: true,
+        },
+
+
+        //End
+
+
+        // --> Start Wathiq
+        {
+            route: 'https://developer.staging.wathq.sa/ar/user-card-menu/page/subscriptions',
+            iframeUrl: 'https://az2.survey2connect.com/K/0a4012b1',
+            showSurvey: true,
+        },
+        {
+            route: 'https://developer.staging.wathq.sa/ar/user-card-menu/page/requests',
+            iframeUrl: 'https://az2.survey2connect.com/K/1764d561',
+            showSurvey: true,
+        },
+        {
+            route: 'https://developer.staging.wathq.sa/ar/sales?package=Enterprise',
+            iframeUrl: 'https://az2.survey2connect.com/K/b4dd97a0',
+            showSurvey: true,
+        },
+
+
+        {
+            route: 'https://developer.wathq.sa/ar/user-card-menu/page/subscriptions',
+            iframeUrl: 'https://az2.survey2connect.com/K/0a4012b1',
+            showSurvey: true,
+        },
+        {
+            route: 'https://developer.wathq.sa/ar/user-card-menu/page/requests',
+            iframeUrl: 'https://az2.survey2connect.com/K/1764d561',
+            showSurvey: true,
+        },
+        {
+            route: 'https://developer.wathq.sa/ar/sales?package=Enterprise',
+            iframeUrl: 'https://az2.survey2connect.com/K/b4dd97a0',
+            showSurvey: true,
+        },
+
+
+        // --> End Wathiq
+
+
+        {
+            route: 'https://emagazinepp.aamaly.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/8de137fb',
+            showSurvey: true,
+        },
+        // --> Start emazad
+        {
+            route: 'https://public-staging.emazad.sa/account/login',
+            iframeUrl: 'https://az2.survey2connect.com/N/b77eb59d',
+            showSurvey: true,
+        },
+        {
+            route: 'https://public-staging.emazad.sa/app/main/wallet/mywallet',
+            iframeUrl: 'https://az2.survey2connect.com/N/9fb48b9c',
+            showSurvey: true,
+        },
+
+
+        // <--> End emazad
+        {
+            route: 'https://crrenewpp.mc.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/81ab250f?langKey=arab_gulf',
+            showSurvey: true,
+        },
+        {
+            route: 'https://coopre.mc.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/2ebb39dc',
+            showSurvey: true,
+        },
+        {
+            route: 'https://staging.vsafety.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/1e35f23a',
+            showSurvey: true,
+        },
+        {
+            route: 'https://secompaniespre.mc.gov.sa/account/loginadfs',
+            iframeUrl: 'https://az2.survey2connect.com/N/5a7bf67f',
+            showSurvey: true,
+        },
+        {
+            route: 'https://franchisepp.mc.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/95339400',
+            showSurvey: true,
+        },
+        {
+            route: 'https://ipnpre.thiqah.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/d84103ad',
+            showSurvey: true,
+        },
+        {
+            route: 'https://preipn.saip.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/d84103ad',
+            showSurvey: true,
+        },
+        {
+            route: 'https://pretrade.saip.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/6618a44a',
+            showSurvey: true,
+        },
+        {
+            route: 'https://crpre.mc.gov.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/81ab250f',
+            showSurvey: true,
+        },
+
+        // --> Start mwathiq
+
+        {
+            route: 'https://mwathiqpre-r2.thiqah.sa/RealState/PreviewInstrument',
+            iframeUrl: 'https://az2.survey2connect.com/N/1a254474',
+            showSurvey: true,
+        },
+        // <--> End mwathiq
+        // --> Start emazad
+        {
+            route: 'https://ehkaam.sa/real-estate',
+            iframeUrl: 'https://az2.survey2connect.com/N/643b2a3f',
+            showSurvey: true,
+        },
+        {
+            route: 'https://apppp.ehkaam.sa/real-estate',
+            iframeUrl: 'https://az2.survey2connect.com/N/643b2a3f',
+            showSurvey: true,
+        },
+        // <--> End emazad
+        {
+            route: 'https://emagazine.aamaly.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/8de137fb',
+            showSurvey: true,
+        },
+        
+        {
+            route: 'http://aamalymarket-public.aks.thiqah.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/adad9acf',
+            showSurvey: true,
+        },
+
+        // ---> Start esedr
+        {
+            route: 'https://sdradminpp.sfda.gov.sa/SDR/Registration',
+            iframeUrl: 'https://az2.survey2connect.com/N/4f5b006d',
+            showSurvey: true,
+        },
+        {
+            route: 'https://sdradminpp.sfda.gov.sa/SDR/Objection/ObjectionRequest',
+            iframeUrl: 'https://az2.survey2connect.com/N/2be11224',
+            showSurvey: true,
+        },
+        {
+            route: 'https://sdradminpp.sfda.gov.sa/SDR/RenewalRequest/SaveRenewalRequest',
+            iframeUrl: 'https://az2.survey2connect.com/N/3d90a058',
+            showSurvey: true,
+        },
+
+
+        {
+            route: 'https://mcc.vsafety.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/1e35f23a',
+            showSurvey: true,
+        },
+        {
+            route: 'https://tibyan.sa',
+            iframeUrl: 'https://az2.survey2connect.com/K/25da0615',
+            showSurvey: true,
+        },
+        // ---> End esedr
+
+        {
+            route: 'https://mwathiq.sa/RealState/PreviewInstrument',
+            iframeUrl: 'https://az2.survey2connect.com/N/1a254474',
+            showSurvey: true,
+        },
+
+
+        {
+            route: 'https://saberpp-r2.thiqah.sa',
+            iframeUrl: 'https://az2.survey2connect.com/N/fa3316d9',
+            showSurvey: true,
+        },
+        {
+            route: 'localhost',
+            iframeUrl: 'https://www.thiqah.sa',
+            showSurvey: true,
+        },
+
+        // --> Start Maroof
+        {
+            route: 'https://maroof-visitor.aks.thiqah.sa',
+            iframeUrl: 'https://az2.survey2connect.com/S/5605de57?langKey=arab_gulf',
+            showSurvey: true,
+        },
+        {
+            route: 'http://visitorpp.maroof.sa',
+            iframeUrl: 'https://az2.survey2connect.com/S/5605de57?langKey=arab_gulf',
+            showSurvey: true,
+        },
+        {
+            route: 'https://maroof-web.aks.thiqah.sa/',
+            iframeUrl: 'https://az2.survey2connect.com/S/5605de57?langKey=arab_gulf',
+            showSurvey: true,
+        },
+        {
+            route: 'http://maroof-web.aks.thiqah.sa/',
+            iframeUrl: 'https://az2.survey2connect.com/S/5605de57?langKey=arab_gulf',
+            showSurvey: true,
+        },
+        {
+            route: 'https://tajirpp.maroof.sa/',
+            iframeUrl: 'https://az2.survey2connect.com/S/5605de57?langKey=arab_gulf',
+            showSurvey: true,
+        },
+        {
+            route: 'http://tajirpp.maroof.sa/',
+            iframeUrl: 'https://az2.survey2connect.com/S/5605de57?langKey=arab_gulf',
+            showSurvey: true,
+        },
+        {
+            route: 'https://maroof-visitor.aks.thiqah.sa/',
+            iframeUrl: 'https://az2.survey2connect.com/S/5605de57?langKey=arab_gulf',
+            showSurvey: true,
+        },
+        {
+            route: 'http://visitorpp.maroof.sa/',
+            iframeUrl: 'https://az2.survey2connect.com/S/5605de57?langKey=arab_gulf',
+            showSurvey: true,
+        },
+        {
+            route: 'https://maroof.sa/',
+            iframeUrl: 'https://az2.survey2connect.com/S/5605de57?langKey=arab_gulf',
+            showSurvey: true,
+        }
+        // --> End Maroof
+    ],
+    excludeArr: [''],
+    headingTxtAr: 'هل ترغب في المشاركة في استطلاع الراي',
+    confirmBtnTxtAr: 'ابدا',
+    headingTxtEn: 'Would you like to start a survey to improve your experience ?',
+    confirmBtnTxtEn: 'Start',
+    linkUrl: '',
+    showImg: 1,
+    usePopup: 1
+};

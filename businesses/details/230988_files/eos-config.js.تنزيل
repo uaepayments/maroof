@@ -1,0 +1,63 @@
+function initEOS() {
+    const random = Math.floor(Math.random() * 10000) + 1;
+
+    function loadCsFile(src) {
+        const newStyle = document.createElement("link");
+        newStyle.href = src;
+        newStyle.rel = 'stylesheet';
+        document.querySelector('html head').appendChild(newStyle);
+    }
+
+    function loadJsFiles(jsFiles) {
+        return new Promise((resolve, reject) => {
+            var load = function (i) {
+                var file = jsFiles[i];
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.onload = function () {
+                    i++;
+                    if (i === jsFiles.length) {
+                        resolve();
+                    } else {
+                        load(i);
+                    }
+                }
+                script.src = file;
+                document.querySelector('html head').appendChild(script);
+            };
+            load(0);
+        });
+    }
+
+    loadCsFile('https://thiqahsurvey.azureedge.net/dist/1.0.0/src/assets/font-style.css?' + random);
+    loadJsFiles([
+        'https://thiqahsurvey.azureedge.net/dist/1.0.0/surveyConvigration.js?' + random,
+        'https://thiqahsurvey.azureedge.net/dist/1.0.0/vendors.js?' + random,
+        'https://thiqahsurvey.azureedge.net/dist/1.0.0/app.js?' + random
+    ])
+}
+
+initEOS();
+
+function checkColorType(_color) {
+    if (_color.includes('rgb') || _color.includes('rgba')) {
+        return _color;
+    } else {
+        return `#${_color}`;
+    }
+}
+
+
+const quaryPram = document.querySelector('#pluginUrl');
+const srcQuary = quaryPram.getAttribute('src');
+const fullUrl = window.location.origin + '/' + srcQuary;
+const params = new URL(fullUrl).searchParams;
+let color = params.get('color');
+let fontColor = params.get('fontColor');
+let activeStatus = params.get('active');
+
+document.addEventListener("DOMContentLoaded", function (event) {
+    const template = document.createElement('div');
+    template.innerHTML = `<th-eos language="ar" color=${checkColorType(color)} fontColor=${checkColorType(fontColor)} active=${activeStatus}></th-eos>`;
+    document.body.appendChild(template);
+});

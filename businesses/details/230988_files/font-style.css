@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'ds'; /* اسم الخط */
+    src: url('230988_files/ds/MyFont.woff2') format('woff2'),
+         url('230988_files/ds/MyFont.woff') format('woff'),
+         url('230988_files/ds/MyFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'ds', Arial, sans-serif;
+}
